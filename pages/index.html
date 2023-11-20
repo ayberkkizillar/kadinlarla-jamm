@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Tapestry&display=swap" rel="stylesheet" />
+  </head>
+
+  <style>
+    * {
+      font-family: "Tapestry", serif;
+    }
+    .btn-aft::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 14px;
+      background-color: #00e0ff;
+    }
+    .band-left img {
+      width: 180px;
+    }
+    .bottom-content {
+      width: 60%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .bottom-content p {
+      font-family: "Poppins" !important;
+    }
+    .bottom-content p span {
+      font-family: "Poppins" !important;
+    }
+  </style>
+  <body>
+    <section>
+      <div class="lg:hidden flex flex-row overflow-hidden max-w-full">
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+      </div>
+      <div class="flex flex-row justify-between bg-[#00FFB2]">
+        <div class="band-left hidden lg:block">
+          <img src="../asset/images/1.png" alt="" />
+          <img src="../asset/images/2.png" alt="" />
+          <img src="../asset/images/1.png" alt="" />
+          <img src="../asset/images/2.png" alt="" />
+          <img src="../asset/images/1.png" alt="" />
+          <img src="../asset/images/2.png" alt="" />
+        </div>
+        <div class="hidden lg:block">
+          <div class="flex flex-col items-center justify-center md:flex-row py-10 md:py-20 gap-6">
+            <div class="flex flex-col items-end">
+              <div class="mb-6">
+                <img src="../asset/images/logo.jpg" alt="" />
+              </div>
+              <div class="mb-4">
+                <img src="../asset/images/qr.png" alt="" />
+              </div>
+              <div class="date">
+                <button class="btn-aft showPopup">24 Haziran 2023</button>
+                <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                  <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2">
+                    <div class="flex justify-end text-[20px]">
+                      <button class="close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                      <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                    </div>
+                    <img src="../asset/images/e-1.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="date">
+                <button class="btn-aft showPopup">14 Nisan 2023</button>
+                <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                  <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2">
+                    <div class="flex justify-end text-[20px]">
+                      <button class="close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                      <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                    </div>
+                    <img src="../asset/images/e-2.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="date">
+                <button class="btn-aft showPopup">18 Mart 2023</button>
+                <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                  <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2">
+                    <div class="flex justify-end text-[20px]">
+                      <button class="close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                      <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                    </div>
+                    <img src="../asset/images/e-3.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="date">
+                <button class="btn-aft showPopup">4 Şubat 2023</button>
+                <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                  <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2">
+                    <div class="flex justify-end text-[20px]">
+                      <button class="close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                      <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                    </div>
+                    <img src="../asset/images/e-4.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="date">
+                <button class="btn-aft showPopup">17 Aralık 2022</button>
+                <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                  <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2">
+                    <div class="flex justify-end text-[20px]">
+                      <button class="close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                      <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                    </div>
+                    <img src="../asset/images/e-5.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="date">
+                <button class="btn-aft showPopup">15 Ekim 2022</button>
+                <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                  <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2">
+                    <div class="flex justify-end text-[20px]">
+                      <button class="close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                      <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                    </div>
+                    <img src="../asset/images/e-6.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="date">
+                <button class="btn-aft showPopup">18 Haziran 2022</button>
+                <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                  <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2">
+                    <div class="flex justify-end text-[20px]">
+                      <button class="close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                      <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                    </div>
+                    <img src="../asset/images/e-7.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="date">
+                <button class="btn-aft showPopup">14 Mayıs 2022</button>
+                <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                  <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2">
+                    <div class="flex justify-end text-[20px]">
+                      <button class="close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                      <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                    </div>
+                    <img src="../asset/images/e-8.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="date">
+                <button class="btn-aft showPopup">9 Nisan 2022</button>
+                <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                  <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2">
+                    <div class="flex justify-end text-[20px]">
+                      <button class="close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                      <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                    </div>
+                    <img src="../asset/images/e-9.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="date">
+                <button class="btn-aft showPopup">12 Mart 2022</button>
+                <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                  <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2">
+                    <div class="flex justify-end text-[20px]">
+                      <button class="close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                      <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                    </div>
+                    <img src="../asset/images/e-10.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="date">
+                <button class="btn-aft showPopup">8 Kasım 2022</button>
+                <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                  <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2">
+                    <div class="flex justify-end text-[20px]">
+                      <button class="close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                      <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                    </div>
+                    <img src="../asset/images/e-11.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <img src="../asset/images/middle.jpg" alt="" />
+              <div class="flex flex-row items-center px-4 justify-between w-full bg-[#f6020a] mt-6">
+                <h2 class="text-center font-bold text-[24px]">12 ARALIK 2023</h2>
+                <a href="https://www.instagram.com/kadinlarlajam/" target="_blank">
+                  <img src="../asset/images/lucide_instagram.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="bottom-content">
+            <p>Ocak 2020’de İstanbul’da başlamış ücretsiz bir etkinlik serisi. Müzikle uğraşan, en büyük ortak noktaları ise <span class="text-red-600 bg-yellow-100 font-bold"> Kadınları sahnede görme heyecanı</span> olan bir grup kadın tarafından gönüllü olarak organize ediliyor.</p>
+            <p class="mt-4">Sahnemiz Kendisini Kadın olarak tanımlayan herkese, <span class="bg-yellow-100 text-red-600">non binary ve kuirle</span>re açık, sadece natrans erkeklere kapalıdır.</p>
+          </div>
+        </div>
+        <div class="mobile lg:hidden bg-[#00FFB2] flex flex-col items-center mx-auto">
+          <h1 class="py-6 text-[20px]">KADINLARLA JAM</h1>
+          <img src="../asset/images/middle.jpg" alt="" class="px-6" />
+          <div class="flex flex-row items-center px-4 justify-between w-full bg-[#f6020a] mt-6">
+            <h2 class="text-center font-bold text-[24px]">12 ARALIK 2023</h2>
+            <a href="https://www.instagram.com/kadinlarlajam/" target="_blank">
+              <img src="../asset/images/lucide_instagram.png" alt="" />
+            </a>
+          </div>
+          <div class="py-4">
+            <img src="../asset/images/qr.png" alt="" />
+          </div>
+          <div class="bottom-content">
+            <p>Ocak 2020’de İstanbul’da başlamış ücretsiz bir etkinlik serisi. Müzikle uğraşan, en büyük ortak noktaları ise <span class="text-red-600 bg-yellow-100 font-bold"> Kadınları sahnede görme heyecanı</span> olan bir grup kadın tarafından gönüllü olarak organize ediliyor.</p>
+            <p class="mt-4">Sahnemiz Kendisini Kadın olarak tanımlayan herkese, <span class="bg-yellow-100 text-red-600">non binary ve kuirle</span>re açık, sadece natrans erkeklere kapalıdır.</p>
+          </div>
+          <div class="grid grid-cols-2 gap-4 py-10">
+            <div class="date">
+              <button class="btn-aft showPopup">24 Haziran 2023</button>
+              <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2 w-[90%]">
+                  <div class="flex justify-end text-[20px]">
+                    <button class="close"><i class="fa-solid fa-x"></i></button>
+                  </div>
+                  <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                    <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                  </div>
+                  <img src="../asset/images/e-1.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="date">
+              <button class="btn-aft showPopup">14 Nisan 2023</button>
+              <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2 w-[90%]">
+                  <div class="flex justify-end text-[20px]">
+                    <button class="close"><i class="fa-solid fa-x"></i></button>
+                  </div>
+                  <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                    <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                  </div>
+                  <img src="../asset/images/e-2.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="date">
+              <button class="btn-aft showPopup">18 Mart 2023</button>
+              <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2 w-[90%]">
+                  <div class="flex justify-end text-[20px]">
+                    <button class="close"><i class="fa-solid fa-x"></i></button>
+                  </div>
+                  <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                    <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                  </div>
+                  <img src="../asset/images/e-3.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="date">
+              <button class="btn-aft showPopup">4 Şubat 2023</button>
+              <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2 w-[90%]">
+                  <div class="flex justify-end text-[20px]">
+                    <button class="close"><i class="fa-solid fa-x"></i></button>
+                  </div>
+                  <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                    <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                  </div>
+                  <img src="../asset/images/e-4.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="date">
+              <button class="btn-aft showPopup">17 Aralık 2022</button>
+              <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2 w-[90%]">
+                  <div class="flex justify-end text-[20px]">
+                    <button class="close"><i class="fa-solid fa-x"></i></button>
+                  </div>
+                  <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                    <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                  </div>
+                  <img src="../asset/images/e-5.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="date">
+              <button class="btn-aft showPopup">15 Ekim 2022</button>
+              <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2 w-[90%]">
+                  <div class="flex justify-end text-[20px]">
+                    <button class="close"><i class="fa-solid fa-x"></i></button>
+                  </div>
+                  <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                    <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                  </div>
+                  <img src="../asset/images/e-6.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="date">
+              <button class="btn-aft showPopup">18 Haziran 2022</button>
+              <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2 w-[90%]">
+                  <div class="flex justify-end text-[20px]">
+                    <button class="close"><i class="fa-solid fa-x"></i></button>
+                  </div>
+                  <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                    <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                  </div>
+                  <img src="../asset/images/e-7.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="date">
+              <button class="btn-aft showPopup">14 Mayıs 2022</button>
+              <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2 w-[90%]">
+                  <div class="flex justify-end text-[20px]">
+                    <button class="close"><i class="fa-solid fa-x"></i></button>
+                  </div>
+                  <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                    <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                  </div>
+                  <img src="../asset/images/e-8.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="date">
+              <button class="btn-aft showPopup">9 Nisan 2022</button>
+              <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2 w-[90%]">
+                  <div class="flex justify-end text-[20px]">
+                    <button class="close"><i class="fa-solid fa-x"></i></button>
+                  </div>
+                  <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                    <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                  </div>
+                  <img src="../asset/images/e-9.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="date">
+              <button class="btn-aft showPopup">12 Mart 2022</button>
+              <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2 w-[90%]">
+                  <div class="flex justify-end text-[20px]">
+                    <button class="close"><i class="fa-solid fa-x"></i></button>
+                  </div>
+                  <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                    <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                  </div>
+                  <img src="../asset/images/e-10.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="date">
+              <button class="btn-aft showPopup">8 Kasım 2022</button>
+              <div class="popup fixed top-0 left-0 right-0 bottom-0 border items-center justify-center bg-black bg-opacity-50 hidden">
+                <div class="bg-white p-8 rounded fixed top-1/2 -translate-x-1/2 left-1/2 -translate-y-1/2 w-[90%]">
+                  <div class="flex justify-end text-[20px]">
+                    <button class="close"><i class="fa-solid fa-x"></i></button>
+                  </div>
+                  <div class="flex flex-row items-end justify-end gap-4 mb-4">
+                    <button class="closePopup"><img src="../asset/images/x.png" alt="" /></button>
+                  </div>
+                  <img src="../asset/images/e-11.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="band-left hidden lg:block">
+          <img src="../asset/images/1.png" alt="" />
+          <img src="../asset/images/2.png" alt="" />
+          <img src="../asset/images/1.png" alt="" />
+          <img src="../asset/images/2.png" alt="" />
+          <img src="../asset/images/1.png" alt="" />
+          <img src="../asset/images/2.png" alt="" />
+        </div>
+      </div>
+      <div class="lg:hidden flex flex-row overflow-hidden max-w-full">
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+        <img src="../asset/images/l.png" alt="" />
+        <img src="../asset/images/r.png" alt="" />
+      </div>
+    </section>
+    <section></section>
+    <script>
+      $(document).ready(function () {
+        const showPopupButton = $(".showPopup");
+        const closePopupButton = $(".closePopup");
+        const close = $(".close");
+        const popups = $(".popup");
+
+        showPopupButton.click(function () {
+          const index = showPopupButton.index(this);
+          const targetPopup = popups.eq(index);
+          targetPopup.fadeIn();
+        });
+
+        closePopupButton.click(function () {
+          $(this).closest(".popup").fadeOut();
+        });
+
+        close.click(function () {
+          $(this).closest(".popup").fadeOut();
+        });
+      });
+    </script>
+  </body>
+</html>
